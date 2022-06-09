@@ -1,0 +1,126 @@
+body,html{
+	background-color: #f5f5f5;
+}
+.menu{
+	width: 1000px;
+	margin: 20px auto;
+	overflow: hidden;
+}
+.m-fl{
+	float: left;
+	width: 250px;
+	padding: 10px;
+	border: 1px solid #e6e6e6;
+}
+.m-fl-title{
+	width: 250px;
+	text-align: center;
+	line-height: 40px;
+}
+.m-fl-title ul li{
+	/*height: 130px;*/
+	border-bottom: 1px solid #e5e5e5;
+	height: 50px;
+}
+.m-fl-title ul li a:hover{
+	background: #d42828 url(../images/nav-fl-hover.png) no-repeat 50px 20px;
+	color: #fff;
+}
+.m-fl-title ul li a{
+	display: block;
+    padding-left: 30px;
+    background: #fff url(../images/subf01.jpg) no-repeat 60px 20px;
+    font-size: 16px;
+    color: #2d3338;
+    line-height: 50px;
+    overflow: hidden;
+}
+.m-fl-btom{
+	margin: 15px;
+}
+.m-fl-btom img{
+	width: 230px;
+	height: 120px;
+}
+.m-fr{
+	float: right;
+	width: 720px;
+	min-height: 600px;
+	background-color: #fff;
+	overflow: hidden;
+}
+.m-fr-title{
+	height: 52px;
+    margin: 0 0 15px 20px;
+}
+.m-fr-title > h2{
+	float: left;
+    font-size: 24px;
+    line-height: 18px;
+    color: white;
+    font-weight: bold;
+    background: #cb2424;
+    line-height: 44px;
+    padding: 0 15px;
+}
+.m-fr-title span{
+	float: right;
+	margin: 30px 30px 0 0;
+	font-size: 12px;
+	color: #464747;
+}
+.m-fr-title span a:hover{
+	color: #d42828;
+}
+.m-fr-cont{
+	width: 100%;
+	line-height: 180%;
+	border-bottom: 1px dashed #ccc;
+	position: relative;
+}
+.view{
+	display: none;
+	width: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.hide{
+	display: block;
+}
+.shuiWu h3{
+	color: #535353;
+	line-height: 230%;
+	margin-left: 10px;
+}
+.shuiWu h4{
+	color: #2d2d2d;
+	line-height: 230%;
+	margin-left: 10px;
+}
+.shuiWu p,.shuiWu a{
+	color: #535353;
+	line-height: 180%;
+	margin-left: 50px;
+	font-size: 14px;
+}
+.m-fr-cont h2{
+	font-weight: 400;
+	text-align: center;
+}
+.m-fr-cont p{
+	font-size: 14px;
+}
+.m-fr-btn-box{
+	width: 120px;
+	height: 30px;
+	background-color: #d42828;
+	color: #fff;
+	padding: 3px;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+	margin: 10px 0;
+	cursor: pointer;
+	margin: 30px auto;
+}

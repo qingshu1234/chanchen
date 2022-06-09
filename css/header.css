@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #444;
+}
+.header{
+	width: 1000px;
+	height: 124px;
+	margin: auto;
+}
+.h-logo{
+	float: left;
+}
+.h-logo img{
+	width: 300px;
+	height: 100px;
+}
+.header ul{
+	float: right;
+	margin-right: -150px;
+}
+.header ul li{
+	float: left;
+	margin-top: 40px;
+	margin-left: 5px;
+	font-size: 15px;
+}
+.h-iptbox{
+	margin-top: 40px;
+}
+.h-iptbox input{
+	width: 140px;
+	height: 32px;
+	text-indent: 5px;
+}
+.h-ipt-btn{
+	display: block;
+	float: right;
+	width: 34px;
+	height: 34px;
+	background: url(../images/sou.png);
+	margin-left: 5px;
+}
+.h-anchor a{
+	margin-top: 5px;
+	line-height: 30px;
+}
+/*
+导航栏
+ */
+.nav{
+	width: 100%;
+	height: 60px;
+	background-color: #cc2223;
+}
+.nav ul{
+	width: 1000px;
+	margin: auto;
+}
+.nav ul li{
+	min-width: 120px;
+	width: auto;
+	padding: 5px 10px;
+	float: left;
+	line-height: 50px;
+	margin: 0 13px;
+	text-align: center;
+}
+.nav ul li a{
+	display: block;
+	color: #fff;
+	font-size: 16px;
+	line-height: 50px;
+}
+.nav ul li a:hover{
+	background: url(../images/nav01.jpg);
+}
